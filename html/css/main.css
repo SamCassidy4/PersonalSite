@@ -40,7 +40,7 @@
   font-size: 30px;
   text-transform: uppercase;
   float: left;
-  background: rgba(241, 186, 131, 0.5);
+  background: rgba(255, 0, 131, 0.5);
   padding: 10px;
 }
 .banner-text-bg {
@@ -73,4 +73,26 @@
 .banner-text-bg {
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
+}
+/* Header Title */
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #f9f7f7;
+  font-size:20px;
+}
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).webp");
+
+  /* Half height */
+  height: 93%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
 }
