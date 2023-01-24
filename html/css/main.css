@@ -34,8 +34,8 @@
 }
 .banner-text {
   color: #000;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
+  font-family: "Abril Fatface"!important;
+  font-weight: 10;
   font-style: normal;
   font-size: 30px;
   text-transform: uppercase;
@@ -49,8 +49,8 @@
   float: left;
   font-size: 23px;
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
+  font-family: "Abril Fatface"!important;
+  font-weight: 10;
   font-style: normal;
   background: rgba(255, 255, 255, 0.5);
   padding: 10px;
@@ -83,13 +83,15 @@
 }
 body, html {
   height: 100%;
+  font-family: "Abril Fatface"!important;
+
 }
 .bg {
   /* The image used */
   background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).webp");
 
   /* Half height */
-  height: 93%;
+  height: 92%;
 
   /* Center and scale the image nicely */
   background-position: center;
